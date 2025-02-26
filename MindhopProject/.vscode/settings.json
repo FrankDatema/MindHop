@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Wouter.sln"
+    "dotnet.defaultSolution": "MindhopProject.sln"
 }
