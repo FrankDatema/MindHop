@@ -7,7 +7,12 @@ public class CloudTrackerScript : MonoBehaviour
     private SpawnAroundObject spawnManager; // Reference to the SpawnAroundObject script
     public SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
     private SpawnAroundObject.HouseholdChore assignedChore; // The chore assigned to this cloud
+    public string ChoreDescription;
     public float shrinkSpeed = 5.0f;
+    public string ChoreTagID
+    {
+        get { return assignedChore != null ? assignedChore.tagID : null; }
+    }
 
     void Start()
     {

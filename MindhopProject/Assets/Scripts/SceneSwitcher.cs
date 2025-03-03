@@ -17,6 +17,7 @@ public class TouchToChangeScene : MonoBehaviour
             {
                 // Load the new scene
                 SceneManager.LoadScene(sceneToLoad);
+
             }
         }
 
@@ -24,6 +25,9 @@ public class TouchToChangeScene : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene(sceneToLoad);
+
         }
+
+
     }
 }

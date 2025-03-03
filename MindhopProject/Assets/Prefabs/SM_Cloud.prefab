@@ -93,6 +93,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 789dd0e9b277d5641a3d2e14b018aa12, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 789dd0e9b277d5641a3d2e14b018aa12, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 789dd0e9b277d5641a3d2e14b018aa12, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 789dd0e9b277d5641a3d2e14b018aa12, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -152,7 +164,7 @@ PrefabInstance:
       addedObject: {fileID: 5871723099683331718}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 789dd0e9b277d5641a3d2e14b018aa12, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2106302149205701513}
+      addedObject: {fileID: 284955173995123603}
   m_SourcePrefab: {fileID: 100100000, guid: 789dd0e9b277d5641a3d2e14b018aa12, type: 3}
 --- !u!4 &6180032540869381610 stripped
 Transform:
@@ -177,9 +189,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 6042628406984577312}
+  ChoreDescription: 
   shrinkSpeed: 1
---- !u!64 &2106302149205701513
-MeshCollider:
+--- !u!65 &284955173995123603
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -196,7 +209,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6541044695609991337, guid: 789dd0e9b277d5641a3d2e14b018aa12, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.02010911, y: 0.013186287, z: 0.009045888}
+  m_Center: {x: -0.000040624756, y: 0.0010585489, z: -0.00008155382}
